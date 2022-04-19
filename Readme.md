@@ -2,7 +2,7 @@
 
 Auto-generates `std::string_view`s for c++ scoped enums elements provided some conditions are met:
 
-- `__PRETTY_FUNCTION_` is available.
+- `__PRETTY_FUNCTION__` is available.
 - The enum's underlying type can be converted to the index of an array.
 
 ## Usage
